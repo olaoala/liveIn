@@ -1,0 +1,148 @@
+.footer {
+    background-color: #000;
+    color: #f9f9f9;
+    padding: 40px 20px;
+    margin:0em 3em;
+    border-radius: .8em;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .companyInfo {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .companyInfo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffbb33;
+  }
+  
+  .companyInfo p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .quickLinks {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .quickLinks h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .quickLinks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quickLinks ul li {
+    margin-bottom: 8px;
+  }
+  
+  .quickLinks ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .quickLinks ul li a:hover {
+    color: #ffbb33;
+  }
+  
+  .contactInfo {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contactInfo p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .socialIcons a {
+    color: #f9f9f9;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .socialIcons a:hover {
+    color: #ffbb33;
+  }
+  
+  .newsletter {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .newsletter form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter button {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffbb33;
+    color: #1a1a1a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter button:hover {
+    background-color: #f8a933;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+  }
+  

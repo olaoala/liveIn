@@ -1,0 +1,43 @@
+
+.container{
+    background-image: url('../../Assets/interior2.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family:  'Ubuntu', sans-serif;
+
+}
+.navs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8em;
+}
+.auth{
+    display: flex;
+}
+.auth p{
+    background-color: #2a430c93;
+    padding: 2em;
+    margin: .5em;
+    border-radius: 1em;
+}
+.navs p{
+    padding: .8em 2em;
+}
+.header{
+    margin: .8em 2em;
+}
+.header p{
+    font-size: .7em;
+}
+.header h2{
+    font-size: 5em;
+    margin: 0em;
+}
+.achievmentCards{
+    display: flex;
+  
+}

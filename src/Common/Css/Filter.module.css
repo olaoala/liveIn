@@ -1,0 +1,106 @@
+.filterContainer {
+    padding:0em 8em;
+  }
+  
+  .header {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+    color: #333;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    padding: .5em .8em;
+    border: .1px solid #aeb6bf;
+    background-color: #f4f6f7;
+    color: black;
+    cursor: pointer;
+    border-radius: 10em;
+    font-size: .8em;
+  }
+  
+  .buttons button:hover {
+    background-color: #0D8A23;
+    color: white;
+    border: 1px solid #0D8A23;
+
+  }
+  
+  .summarySections {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+
+  
+.section {
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+
+
+
+  
+  .section p {
+    font-size: .8em;
+    color: #000;
+    margin: 0em;
+    font-weight: 500;
+  }
+  
+  .section span {
+    font-size: .9em;
+    font-weight: bold;
+    color: #333;
+    margin: 0em;
+  }
+  .section :hover{
+    color: #0D8A23;
+  }
+  .summarySections :focus{
+    color: #0D8A23;
+    border-bottom: 1px solid green;
+
+  }
+  .dateSelection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dateRangeContainer {
+    border: 2px solid #ccc;
+    padding: .5em;
+    border-radius: 8px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .dateRangeContainer input{
+    border: none;
+  }
+  
+
+  
+  .saveButton {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .saveButton:hover {
+    background-color: #218838;
+  }
+  

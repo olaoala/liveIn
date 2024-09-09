@@ -1,0 +1,122 @@
+/* Navbar.css */
+
+.navbar {
+  
+    align-items: center;
+    background-color: white;
+    color: black;
+    max-width: 100%;
+    
+  }
+
+  .navLinks{
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo :hover{
+    color: blue;
+  }
+  .rightLinks :hover{
+    color: blue;
+  }
+  .midLinks :hover{
+    color: blue;
+  }
+  .DashNav .midLinks{
+    display: flex;
+    gap: 1em;
+    font-size: .8em;
+    font-weight: 500;
+    align-items: center;
+    bottom: 2px;
+
+  }
+  .DashNav .midLinks :hover{
+    text-decoration: underline;
+    color: black;
+
+  }
+ 
+  .logo {
+    margin: 0em 3em;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: regularTitilli;
+
+  }
+
+  .midLinks{
+    display: flex;
+    gap: 2em;
+    font-weight: 400;
+    align-items: center;
+
+  }
+  .profile{
+  display: flex;
+
+ 
+  }
+
+  .profile:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+ 
+  
+  .rightLinks{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin-right: 5em;  
+  }
+  .rightLinks p{
+    font-size: 1em;
+    font-weight: bold;
+    font-family: regularTitilli;
+
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notif{
+    color: black;
+    border: 1px black solid;
+    border-radius: 50%;
+    padding: .2em;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .profileTag{
+    background-color: #0D8A23;
+    color: white;
+    border: 1px #0D8A23 solid;
+    border-radius: 50%;
+    padding: .4em .5em;
+    align-items: center;
+    font-size: .9em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DashNav .rightLinks{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-right: 3em;
+  }
+  a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent element */
+    outline: none; /* Remove the focus outline */
+  }
+  a:hover{
+    color: #0D8A23; /* Ensure the color doesn't change on hover or focus */
+  }

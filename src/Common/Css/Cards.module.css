@@ -1,0 +1,56 @@
+.achievementCard, .propertyCard, .propertyDetailCard, .prosCard {
+    /* border: 1px solid #ccc; */
+    padding: 1em;
+    margin: 5em 1em;
+    border-radius: 1.3em;
+  }
+  
+  .achievementCard {
+    background-color: #2a430cd6;
+    width: 20em;
+    color: black;
+
+  }
+  
+  .topInfo p  {
+    margin: .2em;
+    font-size: .8em;
+    font-weight: bold;
+  }
+  .topInfo{
+    display: flex;
+  }
+  .bottomInfo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottomInfo p{
+    font-size: .7em;
+    margin: .5em 0em;
+    font-weight: bold;
+  }
+  .propertyCard, .propertyDetailCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .propertyCard img, .propertyDetailCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .property-info, .property-detail-info {
+    text-align: center;
+  }
+  
+  .property-detail-info ul, .prosCard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .prosCard {
+    background-color: #e0f7fa;
+  }
+  
