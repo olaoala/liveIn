@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
-import Home from './Pages/Home';
 import LogIn from './Auth/Login';
 import Registration from './Auth/Registration';
 import Dashboard from './Pages/Dashboard';

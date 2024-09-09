@@ -3,8 +3,6 @@ import React from "react"
 import Navbar from "../Common/Navbar";
 
 import styled from "./Css/Login.module.css";
-import CardComponent from "../Common/Cards";
-import forestHome from "../Assets/foresthouse.jpg"
 import { Link } from 'react-router-dom';
 import Footer from "../Common/Footer";
 

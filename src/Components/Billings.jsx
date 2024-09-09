@@ -8,10 +8,7 @@ import Footer from '../Common/Footer';
 
 const Billings = ({page}) => {
 
-    const handleSetupListings = () => {
-        console.log('Setup Listings Clicked');
-      };
-
+    
       const [selectedFilter, setSelectedFilter] = useState('');
 
   const handleFilterChange = (filter) => {
