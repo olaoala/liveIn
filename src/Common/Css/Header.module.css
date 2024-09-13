@@ -2,22 +2,36 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:1em 8em;
+    padding:1em 4em;
   }
   
   .title {
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: 600;
     color: #333;
+    margin: 1.2em 0em 0.1em 0em;
+
   }
+  .subtittle{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0em 0em 2em 0em;
+  }
+  .buttonsContainer{
+    display: flex;
+    gap: 12px; 
+    /* justify-content: center; */
+   }
   
   .button {
-    padding: .5em .5em;
-    background-color: #f4f6f7;
+    padding: .7em 1.2em;
+    background-color: #D7D7D766;
     color: black;
-    border: .2px solid #aeb6bf;
-    border-radius: 5px;
+    border: .2px solid #E7E7E7;
+    border-radius: 80px;
     cursor: pointer;
+    font-size: .8em;
+    font-weight: 400;
   }
   
   .button:hover {

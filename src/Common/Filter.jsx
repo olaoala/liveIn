@@ -9,12 +9,24 @@ const Filter = ({ page }) => {
       case 'home':
         return (
           <>
+            <h2 className={styles.header}>Your appointments</h2>
+            <div className={styles.buttons}>
+              <button>Checking Out (0)</button>
+              <button>Currently Hosting (0)</button>
+              <button>Upcoming (0)</button>
+              <button>Pending (0)</button>
+            </div>
+          </>
+        );
+        case 'tour':
+        return (
+          <>
             <h2 className={styles.header}>Your Reservation</h2>
             <div className={styles.buttons}>
-              <button>Checking Out</button>
-              <button>Currently Hosting</button>
-              <button>Upcoming</button>
-              <button>Pending</button>
+              <button>Checking Out (0)</button>
+              <button>Currently Hosting (0)</button>
+              <button>Upcoming (0)</button>
+              <button>Pending (0)</button>
             </div>
           </>
         );

@@ -20,9 +20,9 @@
     color: blue;
   }
   .midLinks :hover{
-    color: blue;
+    color: #29BD5F;
   }
-  .DashNav .midLinks{
+  /* .DashNav .midLinks{
     display: flex;
     gap: 1em;
     font-size: .8em;
@@ -30,7 +30,7 @@
     align-items: center;
     bottom: 2px;
 
-  }
+  } */
   .DashNav .midLinks :hover{
     text-decoration: underline;
     color: black;
@@ -48,8 +48,11 @@
   .midLinks{
     display: flex;
     gap: 2em;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: .8em;
     align-items: center;
+    bottom: 2px;
+
 
   }
   .profile{
@@ -94,9 +97,9 @@
     justify-content: center;
   }
   .profileTag{
-    background-color: #0D8A23;
+    background-color: #29BD5F;
     color: white;
-    border: 1px #0D8A23 solid;
+    border: 1px #29BD5F solid;
     border-radius: 50%;
     padding: .4em .5em;
     align-items: center;

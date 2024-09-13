@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import {DashNav} from "../Common/Navbar";
-import styled from "./Css/Overview.module.css"
+import styled from "./Css/Tour.module.css"
 import Header from "../Common/Header";
 import Filter from "../Common/Filter";
 import DataArea from "../Common/DataArea";
 import Footer from '../Common/Footer';
+import Resources from '../Common/Resources';
 
 const Overview = ({page}) => {
 
-  
+    const handleSetupListings = () => {
+        console.log('Setup Listings Clicked');
+      };
+
 
       const [selectedFilter, setSelectedFilter] = useState('');
 
@@ -24,12 +28,20 @@ const Overview = ({page}) => {
             </section>
 
             <section className={styled.body}>
-            <Header title="Wuraola's Stats" buttonText="Add Listings" />
+            <Header title="Welcome Wura," subtittle="Get the best as a Live In Home owner today." buttons={[
+    { text: 'Pending Actions (3)', onClick: handleSetupListings },
+    { text: 'Manage Listings', onClick: handleSetupListings },
+    { text: 'Add new listing', onClick: handleSetupListings },
+
+  ]} />
+  <hr />
             <div >
                 <Filter page='listings' onFilterChange={handleFilterChange} />
-                <DataArea page='listings' filter={selectedFilter} />
+                <DataArea page='home' filter={selectedFilter} />
 
             </div>
+            <Resources />
+
 
             <Footer/>
 

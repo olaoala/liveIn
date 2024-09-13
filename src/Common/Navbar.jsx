@@ -63,20 +63,18 @@ const DashNav = () => {
           </div>
           <div className={styles.midLinks}>
             <Link to='/dashboard'>
-              <p>Today</p>
-            </Link>
-            <Link to='/overview'>
               <p>Overview</p>
             </Link>
             <Link to='/billings'>
-              <p>Earnings & Billings</p>
+              <p>Billings and Earnings</p>
+            </Link>
+            <Link to='/Tour'>
+              <p>Tours Management</p>
             </Link>
             <Link to='/listings'>
               <p>Listings</p>
             </Link>
-            <Link to='/dashboard'>
-              <p>Inbox</p>
-            </Link>
+
           </div>
           <div className={styles.rightLinks}>
             <span className={styles.notif}><IoIosNotificationsOutline/></span>

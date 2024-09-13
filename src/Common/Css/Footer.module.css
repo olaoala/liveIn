@@ -1,27 +1,58 @@
 .footer {
-    background-color: #000;
+    background-color: #737373;
     color: #f9f9f9;
-    padding: 40px 20px;
-    margin:0em 3em;
-    border-radius: .8em;
+    padding: 2em 4em 1em 4em;
   }
   
   .footerContainer {
     display: flex;
-    flex-wrap: wrap;
-    gap: 5em;
+    /* gap: 17em; */
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
-  
-  .companyInfo {
-    flex: 1;
-    min-width: 250px;
-    margin-bottom: 20px;
-  }
-  
   .companyInfo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .companyInfo p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .quickLinksContainer{
+    display: flex;
+    gap: 5em;
+  }
+
+  .quickLinks h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .quickLinks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quickLinks ul li {
+    margin-bottom: 6px;
+  }
+  .footer h1{
+    font-size: 19em;
+    margin: 0;
+  }
+  .footerBottom {
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+
+  
+  /* .companyInfo h2 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #ffbb33;
@@ -33,9 +64,7 @@
   }
   
   .quickLinks {
-    flex: 1;
-    min-width: 200px;
-    margin-bottom: 20px;
+    
   }
   
   .quickLinks h3 {
@@ -145,4 +174,4 @@
     font-size: 14px;
     color: #bbb;
   }
-  
+   */
