@@ -23,8 +23,10 @@ const Billings = ({page}) => {
             </section>
 
             <section className={styled.body}>
-            <Header title="Billings & Earnings" />
-            <div >
+            <Header title="Welcome Wura," subtittle="Get the best as a Live In Home owner today." /> 
+            <hr />   
+            
+                    <div >
                 <Filter page='earnings' onFilterChange={handleFilterChange} />
                 <DataArea page='earnings' filter={selectedFilter} />
 
