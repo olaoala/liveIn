@@ -55,7 +55,7 @@ const LogIn = () =>{
                 </form>
             </div>
          </section>
-         <Footer/>
+         {/* <Footer/> */}
 
         </div>
       );

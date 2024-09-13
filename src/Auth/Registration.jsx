@@ -87,7 +87,7 @@ const Registration = () => {
                 </div>
             </section>
 
-            <Footer/>
+            {/* <Footer/> */}
 
         </div>
     );
